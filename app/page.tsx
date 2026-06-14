@@ -9,17 +9,15 @@ export default function Home() {
         <div className="absolute inset-x-0 bottom-0 h-px bg-bone/10" />
 
         <div className="relative mx-auto flex w-full max-w-4xl flex-col items-center text-center">
-          <div className="mb-10 w-full max-w-[360px] overflow-hidden rounded-[28px] bg-bone shadow-2xl shadow-black/40 ring-1 ring-bone/20 sm:max-w-[520px] md:max-w-[640px]">
-            <Image
-              src="/boldly-built-logo.png"
-              alt="Boldly Built"
-              width={1448}
-              height={1086}
-              priority
-              className="h-auto w-full"
-              sizes="(max-width: 640px) 88vw, (max-width: 1024px) 640px, 640px"
-            />
-          </div>
+          <Image
+            src="/boldly-built-logo.png"
+            alt="Boldly Built"
+            width={1448}
+            height={1086}
+            priority
+            className="mb-10 h-auto w-full max-w-[360px] rounded-[28px] object-contain shadow-2xl shadow-black/40 ring-1 ring-bone/20 sm:max-w-[520px] md:max-w-[640px]"
+            sizes="(max-width: 640px) 88vw, (max-width: 1024px) 640px, 640px"
+          />
 
           <h1 className="text-5xl font-black uppercase leading-none text-bone sm:text-6xl md:text-7xl lg:text-8xl">
             Coming Soon
