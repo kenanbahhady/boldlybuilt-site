@@ -4,10 +4,10 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://boldlybuilt.co"),
   title: "Boldly Built | Coming Soon",
-  description: "Training & Coaching for Bald Men",
+  description: "Boldly Built is coming soon.",
   openGraph: {
     title: "Boldly Built | Coming Soon",
-    description: "Training & Coaching for Bald Men",
+    description: "Boldly Built is coming soon.",
     url: "https://boldlybuilt.co",
     siteName: "Boldly Built",
     images: [
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Boldly Built | Coming Soon",
-    description: "Training & Coaching for Bald Men",
+    description: "Boldly Built is coming soon.",
     images: ["/boldly-built-logo.png"],
   },
 };

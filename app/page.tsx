@@ -9,21 +9,17 @@ export default function Home() {
         <div className="absolute inset-x-0 bottom-0 h-px bg-bone/10" />
 
         <div className="relative mx-auto flex w-full max-w-4xl flex-col items-center text-center">
-          <div className="mb-10 w-full max-w-[330px] overflow-hidden rounded-sm bg-bone shadow-2xl shadow-black/40 ring-1 ring-bone/20 sm:max-w-[420px] md:max-w-[480px]">
+          <div className="mb-10 w-full max-w-[360px] overflow-hidden rounded-[28px] bg-bone shadow-2xl shadow-black/40 ring-1 ring-bone/20 sm:max-w-[520px] md:max-w-[640px]">
             <Image
               src="/boldly-built-logo.png"
               alt="Boldly Built"
-              width={1536}
-              height={2048}
+              width={1448}
+              height={1086}
               priority
               className="h-auto w-full"
-              sizes="(max-width: 640px) 86vw, (max-width: 1024px) 480px, 520px"
+              sizes="(max-width: 640px) 88vw, (max-width: 1024px) 640px, 640px"
             />
           </div>
-
-          <p className="mb-5 text-sm font-semibold uppercase text-steel sm:text-base">
-            Training &amp; Coaching for Bald Men
-          </p>
 
           <h1 className="text-5xl font-black uppercase leading-none text-bone sm:text-6xl md:text-7xl lg:text-8xl">
             Coming Soon
