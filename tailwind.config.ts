@@ -8,7 +8,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        ink: "#050505",
+        ink: "#000000",
         bone: "#f7f5f0",
         steel: "#a6a6a6",
       },
