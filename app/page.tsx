@@ -9,14 +9,14 @@ export default function Home() {
         <div className="absolute inset-x-0 bottom-0 h-px bg-bone/10" />
 
         <div className="relative mx-auto flex w-full max-w-4xl flex-col items-center text-center">
-          <div className="relative mb-10 aspect-[4/3] w-full max-w-[360px] overflow-hidden rounded-[28px] bg-white shadow-2xl shadow-black/40 ring-1 ring-white/20 sm:max-w-[520px] md:max-w-[640px]">
+          <div className="relative mb-10 aspect-[1739/1073] w-full max-w-[420px] overflow-hidden rounded-[20px] bg-[#13161a] shadow-2xl shadow-black/40 ring-1 ring-white/10 sm:max-w-[580px] md:max-w-[720px]">
             <Image
               src="/boldly-built-logo.png"
               alt="Boldly Built"
               fill
               priority
-              className="scale-[1.25] object-contain"
-              sizes="(max-width: 640px) 88vw, (max-width: 1024px) 640px, 640px"
+              className="object-contain"
+              sizes="(max-width: 640px) 88vw, (max-width: 1024px) 720px, 720px"
             />
           </div>
 
